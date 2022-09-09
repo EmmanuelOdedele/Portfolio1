@@ -1,0 +1,128 @@
+.aboutme{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../backgroung\ html.jpg);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.topic1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: underline 3px dodgerblue;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: dodgerblue;
+    transition: 0.2s ease-in-out;
+}
+
+nav ul{
+    margin-right: 200px;
+    font-size: 13px;
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    color: dodgerblue;
+}
+
+.content{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 25%;
+    padding-left: 8%;
+    /* transform: translateY(-50%); */
+}
+
+div h4{
+    margin-bottom: 0%;
+}
+
+div h1{
+    margin-top: 2%;
+    margin-bottom: 0%;
+    font-size: 40px;
+}
+
+.par1{
+    margin-top: 2%;
+    font-size: larger;
+}
+
+.subabout{
+    margin-top: 13%;
+}
+
+.goal{
+    margin-bottom: 0%;
+    font-size: 18px;
+}
+
+.par2{
+    margin-top: 1%;
+    font-size: 13px;
+    padding-left: 5%;
+}
+
+.edu{
+    margin-bottom: 0%;
+    font-size: 18px;    
+}
+
+.education{
+    margin-top: 1%;
+    font-size: 13px;
+}
+
+.job{
+    margin-bottom: 0%;
+    font-size: 18px;
+}
+
+.experience{
+    margin-top: 1%;
+    font-size: 13px;
+}
+
+.hobskl{
+    margin-bottom: 0%;
+    font-size: 18px;
+}
+
+.myhobskl{
+    margin-top: 1%;
+    font-size: 13px;
+}
